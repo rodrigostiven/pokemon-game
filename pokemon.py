@@ -20,17 +20,20 @@ class Pokemon:
     def atacar(self, pokemon):
         print("{} atacou {}!".format(self.especie, pokemon.especie))
 
+
 class PokemonEletrico(Pokemon):
     tipo = "eletrico"
 
     def atacar(self, pokemon):
         print("{} lançou um raio do trovão em {}".format(self, pokemon))
 
+
 class PokemonFogo(Pokemon):
     tipo = "fogo"
 
     def atacar(self, pokemon):
         print("{} lançou uma bola de fogo em {}".format(self, pokemon))
+
 
 class PokemonAgua(Pokemon):
     tipo = "água"
